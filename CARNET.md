@@ -135,16 +135,15 @@ Le navigateur affiche ces données en les interprétant pour les présenter sous
 
 1. Quelle est la différence visible entre GET et POST ?
 
-   > _Ma réponse :_ 
+  Les données envoyées sont visibles dans l'URL pour GET et non POST
 
 2. Pour un formulaire de **recherche**, quelle méthode choisiriez-vous ? Et pour un formulaire de **connexion avec mot de passe** ? Pourquoi ?
 
-   > _Ma réponse :_ 
+  Get pour recherche et POST pour le mot de passe car on veux pas que notre mot de passe apparaisse dans l'URL et la recherche n'est pas obligatoire.
 
 3. Les données envoyées en POST sont-elles vraiment « secrètes » ? (Pensez à ce que vous avez vu dans l'onglet Réseau.)
 
-   > _Ma réponse :_ 
-
+   Elles peuvent être visible via l'onglet Network donc faut faire HTTPS.
 ---
 
 ## 🔴 Exercice 9 — Les codes de statut
