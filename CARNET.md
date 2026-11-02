@@ -82,7 +82,7 @@ Le navigateur affiche ces données en les interprétant pour les présenter sous
 
 1. Quelle est la différence de rôle entre le HTML et le CSS ?
 
-   > _Ma réponse :_ 
+  HTML pour l'affichage des contenues des sites web (textes,images ect..) et le CSS son rôle est de styliser tout ca.
 
 2. Pour afficher votre page `/presentation`, combien de fichiers le navigateur doit-il télécharger ? (Vous pourrez le vérifier à l'exercice suivant !)
 
@@ -90,7 +90,7 @@ Le navigateur affiche ces données en les interprétant pour les présenter sous
 
 3. Pourquoi faut-il parfois faire **Ctrl + F5** pour voir les changements de CSS ?
 
-   > _Ma réponse :_ 
+   Car il faut actualiser les changements pour voir les ajouts.
 
 ---
 
@@ -98,19 +98,19 @@ Le navigateur affiche ces données en les interprétant pour les présenter sous
 
 1. Que signifie HTTP ? Qui envoie la **requête** et qui envoie la **réponse** ?
 
-   > _Ma réponse :_ 
+  HYPEX TEXT TRANSFER PROTOCOL : la requête envoyé par le serveur qui répond.
 
 2. Combien de requêtes votre page `/presentation` a-t-elle déclenchées ? Lesquelles ?
 
-   > _Ma réponse :_ 
-
+  2 : Présentation et style.css
 3. Que signifie le code `200` ? Et le code `404` de la favicon ?
 
-   > _Ma réponse :_ 
+   Code 200 : OK
+   Code 404 : le serveur a bien reçu la requête mais parvient pas à répondre à la demande.
 
 4. Pourquoi les modifications faites dans l'onglet Éléments ne sont-elles pas visibles par les autres visiteurs ?
 
-   > _Ma réponse :_ 
+   Les modifications dans l'onglet Éléments sont visibles uniquement sur notre navigateur et ne sont pas enregistrées sur le serveur.
 
 ---
 
