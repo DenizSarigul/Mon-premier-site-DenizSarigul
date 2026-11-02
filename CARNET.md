@@ -65,11 +65,16 @@ Le navigateur affiche ces données en les interprétant pour les présenter sous
 
 1. Pourquoi est-ce une bonne idée de séparer le code Python et le HTML ? (Pensez à une équipe avec un développeur et un graphiste.)
 
-   > _Ma réponse :_ 
+  C'est une bonne idée de séparer le code Python et le HTML pour faciliter l'organisation, la maintenance et le travail en équipe.
+
+   Par exemple :
+   - Le développeur travaille sur le code Python (Flask), qui gère la logique et les données du site.
+   - Le graphiste travaille sur le HTML et le CSS, qui gèrent la structure et l'apparence des pages.
+   Ainsi, chacun peut travailler sur sa partie sans modifier le travail de l'autre.
 
 2. Les `{{ prenom }}` sont-ils remplacés par le serveur ou par le navigateur ? Comment l'avez-vous vérifié ?
 
-   > _Ma réponse :_ 
+   Par le serveur, on peut les vérifier dans la page web et afficher le code source.
 
 ---
 
