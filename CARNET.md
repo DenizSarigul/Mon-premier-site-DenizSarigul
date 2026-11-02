@@ -150,15 +150,18 @@ Le navigateur affiche ces données en les interprétant pour les présenter sous
 
 1. Quelle est la différence entre une erreur `4xx` et une erreur `5xx` ? Qui est « fautif » dans chaque cas ?
 
-   > _Ma réponse :_ 
-
+   Erreur 4xx : erreur client
+   Erreur 5xx : erreur serveur
 2. Comment fonctionne une redirection ? Qui fait la deuxième requête : le serveur ou le navigateur ?
 
-   > _Ma réponse :_ 
+   Quand le serveur dis d'aller à une autre adresse URL et le navigateur fais la deuxième requête
 
 3. Donnez un exemple de situation où un vrai site utilise une redirection.
 
-   > _Ma réponse :_ 
+   On arrive sur la page de connexion.
+   On saisit son identifiant et son mot de passe.
+   Après validation, le serveur vérifie les informations.
+   Si elles sont correctes, le serveur redirige le navigateur vers la page d'accueil du compte utilisateur. 
 
 ---
 
