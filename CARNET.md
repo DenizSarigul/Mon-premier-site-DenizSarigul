@@ -44,15 +44,20 @@
 
 1. Quelle est la différence entre ce que le serveur **envoie** et ce que le navigateur **affiche** ?
 
-   > _Ma réponse :_ 
+  Le serveur envoie une réponse HTTP contenant des données (HTML, CSS, JavaScript, images, etc.).
+
+Le navigateur affiche ces données en les interprétant pour les présenter sous forme de page web à l'utilisateur. 
 
 2. À quoi servent les balises `<h1>`, `<p>`, `<ul>` et `<li>` ?
 
-   > _Ma réponse :_ 
+   <h1> : le titre
+   <p> : paragraphe
+   <ul> : liste non ordonné
+   <li> : liste
 
 3. Pourquoi l'image s'affiche-t-elle alors qu'elle n'est pas sur votre serveur ?
 
-   > _Ma réponse :_ 
+   Car l'image existe deja.
 
 ---
 
