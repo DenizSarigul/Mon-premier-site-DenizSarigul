@@ -32,6 +32,20 @@ def calcul():
     a = int(request.args.get("a", 0))
     b = int(request.args.get("b", 0))
     return f"{a} + {b} = {a + b}"
+@app.get("/formulaire")
+def formulaire():
+    return render_template("formulaire.html")
+
+
+@app.route("/salut", methods=["GET", "POST"])
+def salut():
+    if request.method == "POST":
+        prenom = request.form.get("prenom", "inconnu")
+        ville = request.form.get("ville", "nulle part")
+    else:
+        prenom = request.args.get("prenom", "inconnu")
+        ville = request.args.get("ville", "nulle part")
+    return f"Bonjour {prenom}, qui vient de {ville} ! (reçu en {request.method})"
 # ---------------------------------------------------------------
 #  Ajoutez vos nouvelles routes ci-dessous 👇
 # ---------------------------------------------------------------

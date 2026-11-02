@@ -118,15 +118,16 @@ Le navigateur affiche ces données en les interprétant pour les présenter sous
 
 1. Dans l'URL `https://www.youtube.com/results?search_query=chat`, quel est le nom du paramètre ? Quelle est sa valeur ?
 
-   > _Ma réponse :_ 
+   Nom : Search_queey 
+   Valeur : chat
 
 2. Pourquoi le serveur plante-t-il avec `a=bonjour` ? Que faudrait-il faire pour l'éviter ?
 
-   > _Ma réponse :_ 
+  Car il attend un nombre pour éviter cela il faut faire en sorte que le serveur attend un string
 
 3. Pourquoi est-il dangereux d'afficher **tel quel** ce que l'utilisateur envoie ?
 
-   > _Ma réponse :_ 
+  Dangeureux en terme de confidentialité, tout le monde peut voir ce qu'il envoie.
 
 ---
 
