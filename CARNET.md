@@ -169,19 +169,21 @@ Le navigateur affiche ces données en les interprétant pour les présenter sous
 
 1. Citez trois informations que le serveur connaît sur vous, sans que vous ayez rien rempli.
 
-   > _Ma réponse :_ 
+  Votre adresse IP : 86.247.171.252
+
+Votre navigateur : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
+
+Vos langues : fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7
 
 2. À quoi peut servir l'en-tête `Accept-Language` pour un site comme Wikipédia ?
-
-   > _Ma réponse :_ 
+   Pour permettre à mettre pleins d'autres langues.
 
 3. Dans l'Access log, retrouvez une requête qui a reçu un code `404`. Quelle page était demandée ?
 
-   > _Ma réponse :_ 
+   Style.css
 
 4. Après cet exercice, que pensez-vous de la notion de « navigation anonyme » ?
-
-   > _Ma réponse :_ 
+   Elle permet de naviguer sur le web sans que les données soient enregistrés mais on reste quand meme visible par le fournisseur , l'entreprise...
 
 ---
 
