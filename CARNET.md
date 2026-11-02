@@ -19,7 +19,9 @@
 
 2. Pourquoi votre voisin(e) peut-il voir votre site, alors que vous n'avez rien installé sur son ordinateur ?
 
-  Il est accessible par tout le monde car ...
+ Parce que le site est hébergé sur mon ordinateur, qui joue le rôle de serveur. Mon voisin peut y accéder depuis son navigateur en utilisant mon adresse IP et le port sur lequel Flask écoute.
+
+   Il n'a donc pas besoin d'installer Flask ou Python sur son ordinateur : son navigateur envoie simplement une requête à mon serveur, qui lui renvoie la page web.
 
 ---
 
@@ -32,7 +34,7 @@
 
 2. Que veut dire le message *Not Found* ? Qui l'a envoyé : votre navigateur ou le serveur ?
 
-   Le serveur qui envoie au navigateur
+   Le message 404 Not Found signifie que la page ou la ressource demandée n'a pas été trouvée.
 
 3. Que se passe-t-il si deux fonctions portent le même nom dans `flask_app.py` ? (Indice : essayez, puis lisez l'Error log.)
 
@@ -57,7 +59,7 @@ Le navigateur affiche ces données en les interprétant pour les présenter sous
 
 3. Pourquoi l'image s'affiche-t-elle alors qu'elle n'est pas sur votre serveur ?
 
-   Car l'image existe deja.
+   Car l'image n'a pas besoin d'être stockée sur notre serveur, car le navigateur peut la récupérer depuis un autre serveur grâce à son URL.
 
 ---
 
@@ -86,11 +88,11 @@ Le navigateur affiche ces données en les interprétant pour les présenter sous
 
 2. Pour afficher votre page `/presentation`, combien de fichiers le navigateur doit-il télécharger ? (Vous pourrez le vérifier à l'exercice suivant !)
 
-   > _Ma réponse :_ 
+ Il y'a 2 fichiers : presentation et style.cs 
 
 3. Pourquoi faut-il parfois faire **Ctrl + F5** pour voir les changements de CSS ?
 
-   Car il faut actualiser les changements pour voir les ajouts.
+   Parce que le navigateur utilise un cache pour conserver certains fichiers, comme le CSS, afin d'accélérer le chargement des pages.
 
 ---
 
@@ -200,7 +202,13 @@ JSON : sert à transmettre des données structurées sous forme de clés et de v
 
 3. Citez une application de votre téléphone qui, selon vous, utilise une API. Quelles données échange-t-elle ?
 
-   Whatsapp
+   Whatsapp : 
+   Elle échange plusieurs types de données :
+- Les messages envoyés et reçus.
+- Les photos, vidéos et fichiers.
+- Les informations des contacts.
+- Les informations sur les appels audio et vidéo.
+- Les statuts et les informations de connexion.
 
 ---
 
